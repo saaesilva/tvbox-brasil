@@ -1,0 +1,5 @@
+PyQt6>=6.6.0
+python-vlc>=3.0.20123
+requests>=2.31.0
+psutil>=5.9.0
+PyQt6-WebEngine>=6.6.0
