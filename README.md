@@ -1,11 +1,29 @@
 # 📺 TutuTV Box Brasil — Player Moderno de IPTV (PC & TV Box)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saaesilva/tvbox-brasil/main/docs/preview.jpg" alt="TutuTV Box Brasil - Interface e Picture-in-Picture" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/saaesilva/tvbox-brasil/releases/latest">
+    <img src="https://img.shields.io/badge/Download_Oficial_v1.0.0-Executável_.exe-brightgreen?style=for-the-badge&logo=windows" alt="Download Executável" />
+  </a>
+  <img src="https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge" alt="Licença MIT" />
+</p>
+
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python)](https://www.python.org/)
 [![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41CD52?style=flat-square&logo=qt)](https://riverbankcomputing.com/software/pyqt/)
 [![LibVLC](https://img.shields.io/badge/Player-LibVLC-FF8800?style=flat-square&logo=vlc-media-player)](https://www.videolan.org/vlc/)
-[![Plataforma](https://img.shields.io/badge/Plataforma-Windows_10_%2F_11-0078D6?style=flat-square&logo=windows)](https://microsoft.com)
+[![Releases](https://img.shields.io/github/v/release/saaesilva/tvbox-brasil?style=flat-square&color=success)](https://github.com/saaesilva/tvbox-brasil/releases)
 
 > Player desktop de alta performance desenvolvido em **Python** e **PyQt6** integrado com o motor multimídia **LibVLC**, especialmente otimizado para reprodução estável de canais abertos do Brasil em computadores e aparelhos TV Box.
+
+---
+
+## ⚡ Download Rápido (Sem Instalar Python)
+
+Você pode baixar a versão compilada e portátil diretamente na aba de **[Releases Oficiais](https://github.com/saaesilva/tvbox-brasil/releases/tag/v1.0.0)**:
+👉 **[Baixar TutuTV-Box-Brasil-v1.0.0.exe](https://github.com/saaesilva/tvbox-brasil/releases/download/v1.0.0/TutuTV-Box-Brasil-v1.0.0.exe)**
 
 ---
 
@@ -32,37 +50,28 @@
 
 ## 🛠️ Requisitos do Sistema
 
-1. **Python 3.10 ou superior (64-bit)**
+1. **Windows 10 ou 11 (64-bit)**
 2. **VLC Media Player 64-bit** instalado no sistema:
    - O aplicativo localiza automaticamente a `libvlc.dll` no caminho padrão (`C:\Program Files\VideoLAN\VLC`).
-   - Se o seu VLC for 64-bit, garanta que o Python também seja executado em versão 64-bit.
+   - Se executar via código-fonte, garanta que a versão do Python seja 64-bit.
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Como Executar pelo Código-Fonte
 
-### 1. Clonar o Repositório
 ```bash
+# 1. Clonar o repositório
 git clone https://github.com/saaesilva/tvbox-brasil.git
 cd tvbox-brasil
-```
 
-### 2. Criar e Ativar Ambiente Virtual
-```bash
-# Criar ambiente virtual
+# 2. Criar e ativar ambiente virtual
 python -m venv venv
-
-# Ativar no Windows (PowerShell)
 .\venv\Scripts\Activate.ps1
-```
 
-### 3. Instalar as Dependências
-```bash
+# 3. Instalar dependências
 pip install -r requirements.txt
-```
 
-### 4. Iniciar a Aplicação
-```bash
+# 4. Executar
 python TVBox.py
 ```
 
@@ -89,5 +98,5 @@ python TVBox.py
 
 ## 📄 Licença e Direitos
 
-Desenvolvido por **[Samuel Silva](https://github.com/saaesilva)**.  
-Projeto destinado para fins educacionais e uso pessoal. Todos os fluxos de transmissão pertencem às suas respectivas emissoras detentoras dos direitos de transmissão.
+Distribuído sob a licença **MIT**. Veja o arquivo `LICENSE` para mais detalhes.  
+Desenvolvido por **[Samuel Silva](https://github.com/saaesilva)**.
